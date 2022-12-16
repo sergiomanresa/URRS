@@ -39,6 +39,7 @@ public class Main {
         int espacio=0;
         for (int i = 0; i>= frase.length; i++){
            // if (frase.(i) == ' ') espacio++;
+            //penen nenenenen
         }
     }
 
