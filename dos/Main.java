@@ -13,7 +13,7 @@ public class Main {
         //se ejecuta el constructor por defecto
         Cuenta cuenta1 = new Cuenta();
 
-        System.out.print("Nombre : ");
+        System.out.print("URRS.Nombre : ");
         nombre = sc.nextLine();
         System.out.print("Número de cuenta : ");
         numero = sc.nextLine();
@@ -36,7 +36,7 @@ public class Main {
 
         //mostrar los datos de cuenta1
         System.out.println("Datos de la cuenta 1");
-        System.out.println("Nombre del titular: " + cuenta1.getNombre());
+        System.out.println("URRS.Nombre del titular: " + cuenta1.getNombre());
         System.out.println("Número de cuenta: " + cuenta1.getNumeroCuenta());
         System.out.println("Tipo de interés: " + cuenta1.getTipoInteres());
         System.out.println("Saldo: " + cuenta1.getSaldo());
@@ -50,7 +50,7 @@ public class Main {
 
         //mostrar los datos de cuenta2
         System.out.println("Datos de la cuenta 2");
-        System.out.println("Nombre del titular: " + cuenta2.getNombre());
+        System.out.println("URRS.Nombre del titular: " + cuenta2.getNombre());
         System.out.println("Número de cuenta: " + cuenta2.getNumeroCuenta());
         System.out.println("Tipo de interés: " + cuenta2.getTipoInteres());
         System.out.println("Saldo: " + cuenta2.getSaldo());
@@ -58,7 +58,7 @@ public class Main {
 
         //mostrar los datos de cuenta3
         System.out.println("Datos de la cuenta 3");
-        System.out.println("Nombre del titular: " + cuenta3.getNombre());
+        System.out.println("URRS.Nombre del titular: " + cuenta3.getNombre());
         System.out.println("Número de cuenta: " + cuenta3.getNumeroCuenta());
         System.out.println("Tipo de interés: " + cuenta3.getTipoInteres());
         System.out.println("Saldo: " + cuenta3.getSaldo());
