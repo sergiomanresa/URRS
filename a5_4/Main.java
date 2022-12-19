@@ -1,4 +1,6 @@
-package URRS.a5_4;
+package a5_4;
+
+import java.util.Scanner;
 
 public class Main {
     public void elemento() {
@@ -34,16 +36,25 @@ public class Main {
 
     }
 
-    public void separadas(){
-        String[] frase ={" esto es un ejemplo"};
-        int espacio=0;
-        for (int i = 0; i>= frase.length; i++){
-           // if (frase.(i) == ' ') espacio++;
-            //penen nenenenen
+    public void separadas(char[] frase){
+        for (int i = 0; i <frase.length ; i++) {
+            if (frase[i]==' '){
+                System.out.println();
+            }
+            else{
+                System.out.println(frase[i]);
+            }
         }
+
     }
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Scanner entrada=new Scanner(System.in);
+        String frase="";
+        frase= entrada.nextLine();
+        //convierte en un array de caracteres
+        char[] elementos=frase.toCharArray();
+        System.out.println(elementos);
     }
 }
